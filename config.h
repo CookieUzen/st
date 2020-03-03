@@ -5,7 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Source Code Pro for Powerline:pixelsize=14:antialias=true:autohint=true";
+static char *font = "Hack:pixelsize=14:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+	"Noto Sans CJK SC:pixelsize=12:antialias=true:autohint=true",  // Chinese Support
+	"Braille:pixelsize=12:antialias=true:autohint=true", 		// Support for programs with Braille fonts (gotop)
+	"FontAwesome:pixelsize=12:antialias=true:autohint=true", 	// Logo support
+};
 static int borderpx = 2;
 
 /*
