@@ -8,9 +8,9 @@
 static char *font = "Hack:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"Noto Sans CJK SC:pixelsize=12:antialias=true:autohint=true",  // Chinese Support
-	"Braille:pixelsize=12:antialias=true:autohint=true", 		// Support for programs with Braille fonts (gotop)
-	"FontAwesome:pixelsize=12:antialias=true:autohint=true", 	// Logo support
+	"Noto Sans CJK SC:pixelsize=12:antialias=true:autohint=true",	// Chinese Support
+	"Braille:pixelsize=12:antialias=true:autohint=true",			// Support for programs with Braille fonts (gotop)
+	"FontAwesome:pixelsize=12:antialias=true:autohint=true",		// Logo support
 };
 static int borderpx = 2;
 
@@ -89,8 +89,8 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;           //< alpha value used when the window is focused.
-float alphaUnfocussed = 0.7; //< alpha value used when the focus is lost
+float alpha = 0.7;           //< alpha value used when the window is focused.
+float alphaUnfocussed = 0.6; //< alpha value used when the focus is lost
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
